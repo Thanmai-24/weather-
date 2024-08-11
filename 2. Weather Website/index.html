@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Weather App</h2>
+        <ul>
+            <li><a href="#"><img src="images/home-icon.png" alt="Home Icon" class="icon">Home</a></li>
+            <li><a href="#"><img src="images/current-icon.png" alt="Current Weather Icon" class="icon">Current Weather</a></li>
+            <li><a href="#"><img src="images/forecast-icon.png" alt="Forecast Icon" class="icon">Forecast</a></li>
+            <li><a href="#"><img src="images/settings-icon.png" alt="Settings Icon" class="icon">Settings</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>Weather Website</h1>
+        </header>
+        
+        <div class="weather-container">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="get-weather-btn">Get Weather</button>
+            
+            <div id="weather-result" class="weather-result">
+                <!-- Weather information will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
